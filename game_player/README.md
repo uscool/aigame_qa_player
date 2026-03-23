@@ -21,6 +21,12 @@ The project was not completed due to several practical challenges in generalisin
 
 As a result, this remains a failed prototype rather than a fully developed AI system.
 
+## Word of Advice
+
+https://github.com/ardamavi/Game-Bot
+
+This is a less classical more modern implementation method that uses deep learning to achieve a similar task, except it only plays. Anyone wishing to automate QA should ideally fork this repository and write code to identify QA issues to log. 
+
 ### Test Environment
 
 Tested on:
