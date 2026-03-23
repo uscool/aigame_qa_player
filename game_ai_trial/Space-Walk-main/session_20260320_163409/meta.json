@@ -1,0 +1,27 @@
+{
+  "model_name": "spacewalk",
+  "game_name": "Space-Walk-main",
+  "session_id": "20260320_163409",
+  "session_created_at_unix": 1774004649.8183982,
+  "started_at_unix": 1774004651.9232628,
+  "exe_filename": "SpaceWalk.exe",
+  "game_exe": "C:\\Users\\ujjwa\\iCloudDrive\\Documents\\Files\\College\\Sem 6\\AI\\Project\\test\\Space-Walk-main\\SpaceWalk.exe",
+  "game_args": null,
+  "fps_target": 30.0,
+  "monitor": 1,
+  "region": null,
+  "template": null,
+  "template_threshold": 0.7,
+  "format": {
+    "frames_csv": "frames.csv",
+    "keystrokes_jsonl": "keystrokes.jsonl",
+    "sprite_jsonl": "sprite_track.jsonl",
+    "video": null
+  },
+  "game_proc_pid": 41020,
+  "started_by": "manual_recording",
+  "key_effects_path": "C:\\Users\\ujjwa\\iCloudDrive\\Documents\\Files\\College\\Sem 6\\AI\\Project\\models\\spacewalk\\Space-Walk-main\\session_20260320_163409\\key_effects.json",
+  "num_keys_with_effects": 3,
+  "ended_at_unix": 1774004766.9250028,
+  "duration_seconds": 115.00173997879028
+}

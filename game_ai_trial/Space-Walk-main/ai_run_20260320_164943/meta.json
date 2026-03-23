@@ -1,0 +1,27 @@
+{
+  "model_name": "spacewalk",
+  "game_name": "Space-Walk-main",
+  "run_id": "20260320_164943",
+  "learned_from_session": "session_20260320_163409",
+  "exe_filename": "SpaceWalk.exe",
+  "template_threshold": 0.7,
+  "fps_target": 30.0,
+  "ai_params": {
+    "max_time": 90.0,
+    "epsilon": 0.9,
+    "hold": 0.12,
+    "step_wait": 0.18,
+    "stuck_seconds": 12.0,
+    "progress_move_px": 15.0
+  },
+  "completed": false,
+  "completed_via_exit": false,
+  "ended_at_unix": 1774005604.5499914,
+  "game_proc_pid": 14136,
+  "ended_reason": "dead_end_unreachable",
+  "dead_end_frame_count": 73,
+  "dead_end_start_wall": 1774005592.219239,
+  "glitch_count": 64,
+  "fps_drop_count": 123,
+  "min_fps": 4.789735133369724
+}

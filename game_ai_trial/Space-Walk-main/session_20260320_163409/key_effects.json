@@ -1,0 +1,23 @@
+{
+  "key_effects": {
+    "Key.right": {
+      "count": 49,
+      "avg_dx": -7.591836734693878,
+      "avg_dy": 3.336734693877551,
+      "avg_dist": 74.93871078478809
+    },
+    "Key.space": {
+      "count": 18,
+      "avg_dx": 19.555555555555557,
+      "avg_dy": 37.69444444444444,
+      "avg_dist": 104.17878886959953
+    },
+    "Key.left": {
+      "count": 12,
+      "avg_dx": 7.0,
+      "avg_dy": -9.791666666666666,
+      "avg_dist": 25.343926338937553
+    }
+  },
+  "note": "Key effects inferred from sprite center delta at nearest frames."
+}
