@@ -1,8 +1,20 @@
-## AI Game QA tester
+## AI Game QA Tester
 
-This project is a failed attempt to produce an artificial intelligence system from scratch that takes user input from a single play through of a game, and then explores it using some changed keystrokes, using sprite recognition and exploration. It was deemed too complex for phased time frame, although doable. It has been tested on SpaceWalk, a respository from Angel1841
+This project explores building an AI system that learns from a single human playthrough of a game and then autonomously explores it by introducing variations in keystrokes, using sprite recognition and exploration strategies.
 
-Credits: https://github.com/Angel1841/Space-Walk
+The goal was to simulate QA-style testing by enabling the AI to navigate the game and discover new states beyond the original playthrough based on keyclicks.
 
+Due to the complexity of the problem — including avoiding same issues reappearing and reliable methods to understand own issues without external LLM-like connections or logic-based code and reliable state representation via sprites, and effective exploration strategies — the project was not completed within the intended timeframe.
 
-NOTE TO SELF: Write a more explanatory README to help future visitors avoid same pitfall when have time
+The system was tested on:
+
+SpaceWalk by Angel1841
+https://github.com/Angel1841/Space-Walk
+
+### Notes
+
+This project serves as an exploration of autonomous game testing and highlights key challenges in applying AI to QA-style environments. Future improvements would involve better state abstraction, reward design, and structured exploration methods.
+
+Credits
+
+https://github.com/Angel1841/Space-Walk
