@@ -15,6 +15,6 @@ https://github.com/Angel1841/Space-Walk
 
 This project serves as an exploration of autonomous game testing and highlights key challenges in applying AI to QA-style environments. Future improvements would involve better state abstraction, reward design, and structured exploration methods.
 
-Credits
+### Credits
 
 https://github.com/Angel1841/Space-Walk
