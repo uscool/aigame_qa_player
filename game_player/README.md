@@ -1,19 +1,31 @@
 ## AI Game QA Tester
 
-This project explores building an AI system that learns from a single human playthrough of a game and then autonomously explores it by introducing variations in keystrokes, using sprite recognition and exploration strategies.
+This project explores building a system that learns from a single human playthrough of a game and then replays it with variations in keystrokes to explore new states. It uses sprite-based tracking and simple exploration heuristics.
 
-The goal was to simulate QA-style testing by enabling the AI to navigate the game and discover new states beyond the original playthrough based on keyclicks.
+The goal was to approximate QA-style testing by enabling automated traversal beyond the original playthrough.
 
-Due to the complexity of the problem — including avoiding same runthrough without time cost and reliable methods to understand own issues without external LLM-like connections or logic-based code and reliable state representation via sprites, and effective exploration strategies — the project was not completed within the intended timeframe.
+### Current Implementation
+Gameplay recording (frames, keystrokes)
+Sprite tracking using OpenCV (template matching + optical flow)
+Replay system with stochastic input variation
+Basic session analysis (FPS, glitches, tracking behavior)
 
-The system was tested on:
+### Limitations (Or what not to do)
 
+The project was not completed due to several practical challenges in generalising for all games of a simialar type:
+
+1. Difficulty in reliably representing game state using sprite tracking
+2. Large state space leading to redundant or ineffective exploration
+3. Lack of a clear reward signal to guide exploration
+4. Reliance on heuristics rather than a learnable or planned policy
+
+As a result, this remains a failed prototype rather than a fully developed AI system.
+
+### Test Environment
+
+Tested on:
 SpaceWalk by Angel1841
 https://github.com/Angel1841/Space-Walk
-
-### Notes
-
-This project serves as an exploration of autonomous game testing and highlights key challenges in applying AI to QA-style environments. Future improvements would involve better state abstraction, reward design, and structured exploration methods.
 
 ### Credits
 
