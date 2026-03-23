@@ -4,7 +4,7 @@ This project explores building an AI system that learns from a single human play
 
 The goal was to simulate QA-style testing by enabling the AI to navigate the game and discover new states beyond the original playthrough based on keyclicks.
 
-Due to the complexity of the problem — including avoiding same issues reappearing and reliable methods to understand own issues without external LLM-like connections or logic-based code and reliable state representation via sprites, and effective exploration strategies — the project was not completed within the intended timeframe.
+Due to the complexity of the problem — including avoiding same runthrough without time cost and reliable methods to understand own issues without external LLM-like connections or logic-based code and reliable state representation via sprites, and effective exploration strategies — the project was not completed within the intended timeframe.
 
 The system was tested on:
 
