@@ -5,27 +5,29 @@ This project explores building a system that learns from a single human playthro
 The goal was to approximate QA-style testing by enabling automated traversal beyond the original playthrough.
 
 ### Current Implementation
-Gameplay recording (frames, keystrokes)
-Sprite tracking using OpenCV (template matching + optical flow)
-Replay system with stochastic input variation
-Basic session analysis (FPS, glitches, tracking behavior)
 
-### Limitations (Or what not to do)
+* Gameplay recording (frames, keystrokes)
+* Sprite tracking using OpenCV (template matching + optical flow)
+* Replay system with stochastic input variation
+* Basic session analysis (FPS, glitches, tracking behavior)
 
-The project was not completed due to several practical challenges in generalising for all games of a simialar type:
+### Limitations
 
-1. Difficulty in reliably representing game state using sprite tracking
-2. Large state space leading to redundant or ineffective exploration
-3. Lack of a clear reward signal to guide exploration
-4. Reliance on heuristics rather than a learnable or planned policy
+The project was not completed due to several practical challenges in generalising across games:
 
-As a result, this remains a failed prototype rather than a fully developed AI system.
+* Difficulty in reliably representing game state using sprite tracking
+* Large state space leading to redundant or ineffective exploration
+* Lack of a clear reward signal to guide exploration
+* Reliance on heuristics rather than a learnable or planned policy
 
-## Word of Advice
+As a result, this remains an exploratory prototype rather than a fully developed AI system.
 
+### Related Work
+
+For a more modern approach using deep learning for gameplay automation, see:
 https://github.com/ardamavi/Game-Bot
 
-This is a less classical more modern implementation method that uses deep learning to achieve a similar task, except it only plays. Anyone wishing to automate QA should ideally fork this repository and write code to identify QA issues to log. 
+Extending such approaches to QA would require additional logic for detecting and logging issues.
 
 ### Test Environment
 
